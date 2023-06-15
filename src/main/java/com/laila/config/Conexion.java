@@ -16,9 +16,9 @@ public class Conexion {
     private String jdbcPassword;
     
     public Conexion(){
-        this.jdbcURL = "jdbc:mysql://localhost:3306/contacto?useSSL=false";
+        this.jdbcURL = "jdbc:mysql://root:FXiFKNkDcAOmYGuyp48B@containers-us-west-100.railway.app:7152/railway?useSSL=false";
         this.jdbcUsername = "root"; //root
-        this.jdbcPassword = "admin";
+        this.jdbcPassword = "FXiFKNkDcAOmYGuyp48B";
     }
     
     public void conectar() throws SQLException{

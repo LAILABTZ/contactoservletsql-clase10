@@ -1,6 +1,6 @@
 
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page language= "java" contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,7 +9,7 @@
     </head>
     <body>
         <h1>Pagina de Registro de Contacto</h1>
-        <form action="<%= request.getContextPath() %>/ContactoServlet" method="POST">
+        <form action="<%= request.getContextPath() %>/ContactoServlet?action=create" method="POST">
             <label> Nombre:</label> <input type="text" name="nombre">
             <br>
             <label>Apellido:</label> <input type="text" name="apellido">
